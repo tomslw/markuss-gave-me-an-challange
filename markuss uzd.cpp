@@ -6,10 +6,10 @@ int main()
 {
     int N,S,SA,atlikums,lieks;
     double Gadi,j,couner,l;
-    cout << "Cik sipolu jums ir - ";
+    cout << "How meny onions do you have - ";
     cin >> N;
     cout << endl;
-    cout << "Cik skaitu abolu velaties iegut - ";
+    cout << "How meny onions do you want - ";
     cin >> S;
     cout << endl;
     SA = N;
@@ -22,7 +22,7 @@ int main()
     l = SA - SA / 3 ;
     j = atlikums / l;
     Gadi = couner - j;
-    cout << "paies " << Gadi << " gadi" << endl;
+    cout << "It will take " << Gadi << " years" << endl;
     cin >> lieks;
     return 0;
 }
